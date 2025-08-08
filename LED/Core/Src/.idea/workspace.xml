@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6d5e9b6-b282-4b0b-8fc9-6e98cb692af6" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.cmake/api/v1/reply/cache-v2-721b48bb526850461a6c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-42ce5c7e96566123990a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c7a76225b5edaad1bd56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.cmake/api/v1/reply/index-2025-08-01T06-36-45-0080.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.cmake/api/v1/reply/target-biaozhunceshi.elf-Debug-6c93030ac084b00006fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/biaozhunceshi.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/biaozhunceshi.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Wift_conf/cmake-build-debug/build.ninja" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "w1489058589"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:w1489058589/smart-home-base-on-STM32.git",
+    "accountId": "a20f3294-37f2-4ad6-bda9-e1dfb031aa64"
+  }
+}]]></component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="30iqqrV9O4sLmCsFlQ48BfIDyGk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c6d5e9b6-b282-4b0b-8fc9-6e98cb692af6" name="更改" comment="" />
+      <created>1754120934435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754120934435</updated>
+      <workItem from="1754120936085" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
