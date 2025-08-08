@@ -63,8 +63,6 @@ include_directories(
         NET/device/inc
         NET/MQTT
         NET/CJSON
-
-
 )
 
 
