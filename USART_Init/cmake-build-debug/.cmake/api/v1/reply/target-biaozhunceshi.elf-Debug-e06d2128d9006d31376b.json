@@ -1,0 +1,946 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "biaozhunceshi.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-specs=nosys.specs"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "STM32F10X_HD"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_STDPERIPH_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/Core/Inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/Drivers/CMSIS"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/Drivers/STM32F10x_StdPeriph_Driver/inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/hardware/inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/NET/onenet/inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/NET/device/inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/NET/MQTT"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/NET/CJSON"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				20,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				76,
+				77
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-x"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "assembler-with-cpp"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-specs=nosys.specs"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "STM32F10X_HD"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_STDPERIPH_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/Core/Inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/Drivers/CMSIS"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/Drivers/STM32F10x_StdPeriph_Driver/inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/hardware/inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/NET/onenet/inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/NET/device/inc"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/NET/MQTT"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/NET/CJSON"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				18
+			]
+		}
+	],
+	"id" : "biaozhunceshi.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/Users/zhiyou/smart-home-base-on-STM32/USART_Init/cmake-build-debug/biaozhunceshi.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mcpu=cortex-m3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mthumb-interwork",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-T",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "/Users/zhiyou/smart-home-base-on-STM32/USART_Init/STM32F103C6TX_FLASH.ld",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "biaozhunceshi.elf",
+	"nameOnDisk" : "biaozhunceshi.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				18,
+				19,
+				22,
+				23,
+				47,
+				72,
+				75,
+				78
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				21,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				73,
+				74
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				20,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				76,
+				77
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "Core/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/main.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/stm32f10x.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/stm32f10x_conf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/stm32f10x_it.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/system_stm32f10x.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/.idea/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/.idea/Src.iml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/.idea/editor.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/.idea/misc.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/.idea/modules.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/.idea/vcs.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/.idea/workspace.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f10x_it.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/system_stm32f10x.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Startup/startup_stm32f103c6tx.s",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/CMSIS/core_cm3.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/core_cm3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/misc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/misc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/main.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "hardware/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "hardware/inc/delay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "hardware/inc/usart.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "hardware/src/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hardware/src/delay.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "hardware/src/usart.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "STM32F103C6TX_FLASH.ld",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
