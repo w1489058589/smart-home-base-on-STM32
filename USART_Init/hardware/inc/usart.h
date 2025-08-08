@@ -9,10 +9,8 @@
 extern unsigned char Buffer[295];
 void Usart1_Init(void);
 void Usart2_Init(void);
-void Usart_Printf(USART_DEBUG, Buffer,unsigned int length);
-
-
-
+void Usart_SendString(USART_TypeDef *USARTx, unsigned char *str, unsigned short len);
+void UsartPrintf(USART_TypeDef *USARTx, char *fmt,...);
 void USART1_IRQHandLer(void);
 
 

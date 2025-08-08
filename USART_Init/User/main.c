@@ -9,8 +9,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdint.h>
-
-
 /*
 ************************************************************
 *	函数名称：	Hardware_Init
@@ -26,11 +24,9 @@
 */
 void Hardware_Init(void)
 {
-	 // Usart1_Init(115200);
-	 //
-	 // Usart2_Init(115200);
-
-	Delay_Init();
+	 Usart1_Init();
+	 Usart2_Init();
+	 Delay_Init();
 
 }
 
@@ -39,7 +35,8 @@ int main(void)
 	Hardware_Init();
 	while(1) {
 
-
+		UsartPrintf(USART_DEBUG,"111111111\r\n");
+		DelayXms(1000);
 	}
 
 
