@@ -94,9 +94,10 @@ int main(void)
 	ESP8266_Init();
 	while(1)
 	{
+		DHT11_Rst();
 		// DHT11_Read_Data(&temp,&humi);//
 		// UsartPrintf(USART_DEBUG,"P4****temp %d ,humi %df \r\n",temp,humi);
-		DelayXms(1000);
+		// DelayXms(1000);
 	}
 
 }
