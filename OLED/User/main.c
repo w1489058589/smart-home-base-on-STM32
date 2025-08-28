@@ -21,7 +21,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-
+extern  uint8_t flag_dht11_read;
 #define ESP8266_ONENET_INFO		"AT+CIPSTART=\"TCP\",\"mqtts.heclouds.com\",1883\r\n"
 uint8_t temp,humi;
 void Hardware_Init(void);
@@ -86,28 +86,27 @@ int main(void)
 	OneNET_Subscribe();
 	while(1)
 	{
+		// 1. 处理DHT11温湿度读取（定时器触发）
+		if (flag_dht11_read == 1) {
 			DHT11_Read_Data(&temp,&humi);
-			DelayMs(10);
 			UsartPrintf(USART_DEBUG, "P4****temp %d ,humi %d\r\n",temp,humi);
-
-			if(++timeCount >= 100)									//发送间隔5s
-			{
+			Refresh_Data();
+			flag_dht11_read =0;
+		}
+		// 2. 定时向OneNet发送数据（5s一次）
+		if(++timeCount >= 100){
 				DHT11_Read_Data(&temp,&humi);
-
-				//			UsartPrintf(USART_DEBUG, "OneNet_SendData\r\n");
+		//	UsartPrintf(USART_DEBUG, "OneNet_SendData\r\n");
 				OneNet_SendData();									//发送数据
 
 			timeCount = 0;
 			ESP8266_Clear();
 		}
-
-			dataPtr = ESP8266_GetIPD(0);
-			if(dataPtr != NULL)
-			OneNet_RevPro(dataPtr);
-
-	 // Display_Init();
-		 Refresh_Data();
-
+		// 3. 处理ESP8266接收的网络数据
+		dataPtr = ESP8266_GetIPD(0);
+		if(dataPtr != NULL)
+		OneNet_RevPro(dataPtr);
+		Refresh_Data();
 	 	DelayMs(10);
 	}
 

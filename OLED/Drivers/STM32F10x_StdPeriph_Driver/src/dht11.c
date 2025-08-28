@@ -9,7 +9,8 @@
 #include "delay.h"
 #include "usart.h"
 #define DT GPIO_Pin_0
-      
+
+uint8_t flag_dht11_read = 0;
 //复位DHT11
 void DHT11_Rst(void)	   
 {
@@ -120,4 +121,38 @@ uint8_t DHT11_Init(void)
 	DHT11_Rst();  //复位DHT11
 	return DHT11_Check();//等待DHT11的回应
 } 
+//定时器2配置
+//定时器读取温湿度
+//优先级为1，子优先级为0
+void TIM2_Configuration(void) {
+	TIM_TimeBaseInitTypeDef TIM_TimeBaseStruct;
+	//#1.使能时钟
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
+	//#2.配置基础参数
+	TIM_TimeBaseStruct.TIM_Period = 999;
+	TIM_TimeBaseStruct.TIM_Prescaler = 35999;
+	TIM_TimeBaseStruct.TIM_ClockDivision = TIM_CKD_DIV1;
+	TIM_TimeBaseStruct.TIM_CounterMode = TIM_CounterMode_Up;
+	TIM_TimeBaseInit(TIM2, &TIM_TimeBaseStruct);
+	//#3.使能定时器中断
+	TIM_ITConfig(TIM2,TIM_IT_Update,ENABLE);
+	//#4.配置NVIC
+	NVIC_InitTypeDef NVIC_InitStruct;
+	NVIC_InitStruct.NVIC_IRQChannel = TIM2_IRQn;
+	NVIC_InitStruct.NVIC_IRQChannelCmd =ENABLE;
+	NVIC_InitStruct.NVIC_IRQChannelPreemptionPriority = 1;
+	NVIC_InitStruct.NVIC_IRQChannelSubPriority = 0;
+	NVIC_Init(&NVIC_InitStruct);
+	TIM_ARRPreloadConfig(TIM2,ENABLE);
+	//#5.启动定时器
+	TIM_Cmd(TIM2, ENABLE);
+}
 
+//定时器回调函数
+//当flag_dht11_read为1时进行温湿度读取，清清除标志位
+void TIM2_IRQHandler(void) {
+	if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET) {
+		flag_dht11_read =1;
+		TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
+	}
+}
